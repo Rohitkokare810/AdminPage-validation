@@ -1,0 +1,149 @@
+﻿/*body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/ /* Optional: Ensure the body takes up the full viewport height */
+    /*margin: 0;*/ /* Optional: Remove default body margin */
+/*}*/
+body {
+    background-color: #f0f0f0; /* Light gray background color */
+     /* Remove default body margin for a full-width background */
+}
+
+
+.container {
+    /* Optional: Add styles to a container div if needed */
+}
+
+/* styles.css */
+.custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .custom-button:hover {
+        background-color: #2980b9;
+    }
+
+/* Apply these styles to your text fields */
+.input-field {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Add styles for focus state */
+    .input-field:focus {
+        border-color: #3498db; /* Change border color on focus */
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.7); /* Add a subtle box shadow on focus */
+    }
+
+.table-container {
+    /*display: flex;*/
+    justify-content:center;
+}
+
+/* Optional: Adjust styling for the table and GridView */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /*border: 1px solid #ddd;*/ /* Optional border for the table */
+}
+
+th, td {
+    /*border: 1px solid #ddd;*/
+    padding: 8px;
+    text-align: left;
+}
+
+/*th {
+    background-color: #f2f2f2;*/ /* Optional background color for header cells */
+/*}*/
+
+.GridViewStyle {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Optional margin for spacing */
+}
+
+.page-header {
+    background-color: #3498db; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 20px; /* Header padding */
+    text-align: center; /* Center text within the header */
+}
+
+    .page-header h1 {
+        margin: 0;
+        font-size: 32px; /* Header text size */
+    }
+
+/* Page Sub-Header Styles */
+.page-subheader {
+    background-color: #ecf0f1; /* Sub-header background color */
+    color: #333333; /* Sub-header text color */
+    padding: 10px; /* Sub-header padding */
+    text-align: center; /* Center text within the sub-header */
+}
+
+    .page-subheader h2 {
+        margin: 0;
+        font-size: 24px; /* Sub-header text size */
+    }
+
+/* Example of Additional Styles for Content Container */
+.content-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Example of a Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Add button styles */
+.add-button {
+    background-color: #27ae60; /* Green color for add button */
+    color: #ffffff;
+    border: 1px solid #27ae60;
+}
+
+    .add-button:hover {
+        background-color: #219d54; /* Darker green on hover */
+    }
+
+/* Delete button styles */
+.delete-button {
+    background-color: #e74c3c; /* Red color for delete button */
+    color: #ffffff;
+    border: 1px solid #e74c3c;
+}
+
+    .delete-button:hover {
+        background-color: #c0392b; /* Darker red on hover */
+    }
